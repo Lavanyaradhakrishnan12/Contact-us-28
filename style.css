@@ -79,6 +79,7 @@ h1#head {
 
     margin: 15px;
     margin-top: 0;
+    resize: none;
 }
 
 #btn {
@@ -102,7 +103,7 @@ h1#head {
 }
 @media(max-width:520px){
     .container{
-        height: 100%;
+        height: 100vh;
         flex-direction: column;
         overflow-y: scroll;
       
