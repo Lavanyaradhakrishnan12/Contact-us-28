@@ -109,6 +109,8 @@ h1#head {
     }
     .content{
         display: flex;
+        align-items: center;
+        flex-direction: column;
         justify-content: center;
         width:95%;
         height: 100%;
@@ -119,14 +121,15 @@ h1#head {
         height: fit-content;
         border: none;
         border-radius: 0;
+        /* margin-bottom: 10px; */
      
     }
     .box2 {
-        width: 95%;
-        height: 100%;
         position: absolute;
-        top: 93%;
+        top: 100%;
         left: auto;
+        width: 95%;
+        height: 90%;
         border: none;
         border-radius: 0;
     }
