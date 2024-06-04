@@ -105,29 +105,30 @@ h1#head {
     .container{
         height: 100vh;
         flex-direction: column;
-        overflow-y: auto;
+        overflow: auto;
+    
     }
     .content{
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
+        /* display: flex; */
+        /* justify-content: center; */
+        /* align-items: center; */
         width:95%;
         height: 100%;
         margin: 10px;
     }
     .box1 {
+        position: absolute;
+        top: 0;
+        left: 2%;
         width: 95%;
         height: fit-content;
         border: none;
         border-radius: 0;
-        /* margin-bottom: 10px; */
-     
     }
     .box2 {
         position: absolute;
-        top: 100%;
-        left: auto;
+        top: 95%;
+        left: 2%;
         width: 95%;
         height: 90%;
         border: none;
