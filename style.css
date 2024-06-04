@@ -113,11 +113,11 @@ h1#head {
         align-items: center;
         justify-content: center;
         width:95%;
-        height: auto;
+        height: 90%;
     }
     .box1 {
         width: 95%;
-        height: auto;
+        height: 100%;
         border: none;
         border-radius: 0;
      
