@@ -116,7 +116,7 @@ h1#head {
     }
     .box1 {
         width: 95%;
-        height: auto;
+        height: fit-content;
         border: none;
         border-radius: 0;
      
