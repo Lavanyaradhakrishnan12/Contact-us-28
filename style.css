@@ -105,7 +105,7 @@ h1#head {
     .container{
         height: 100vh;
         flex-direction: column;
-        overflow-y: scroll;
+        overflow-y: auto;
       
     }
     .content{
@@ -113,11 +113,11 @@ h1#head {
         align-items: center;
         justify-content: center;
         width:95%;
-        height: 100%;
+        height: auto;
     }
     .box1 {
         width: 95%;
-        height: 100%;
+        height: auto;
         border: none;
         border-radius: 0;
      
