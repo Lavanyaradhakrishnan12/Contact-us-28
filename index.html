@@ -12,28 +12,33 @@
 <body>
     <div class="container">
         <div class="content">
+        
             <div class="box1">
                 <h1 id="head">We can't wait to hear<br> your ideas!</h1>
-                <input class="input" placeholder="Your name">
-                <input class="input" placeholder="Email">
+                <input type="text" class="input" id="name" placeholder="Your name" autocomplete="off">
+                <input type="email" class="input" id="user-mail"   placeholder="Email" autocomplete="off">
                 <textarea id="area">
-                    <!-- Share your thoughts to us -->
+                    
                 </textarea>
-                <button id="btn">Send</button>
+                <button id="btn" type="submit">Send</button>
                 <p id="last-p">By pressing the button,you accept Terms and Condition and Knowledge reading privacy policy.</p>
-               
-
-          
-             
-    
+            
             </div>
             <div class="box2">
+
 
             </div>
 
         </div>
+        <div class="result-box hidden">
+            <!-- <h1>Hello,Your Thoughts Are Received!</h1> -->
+
+        </div>
 
     </div>
+   
+<script src="index.js">
     
+</script>
 </body>
 </html>
